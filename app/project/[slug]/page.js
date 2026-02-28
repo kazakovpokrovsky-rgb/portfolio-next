@@ -49,7 +49,7 @@ export default async function ProjectPage({ params }) {
             <div style={{display:'flex', gap:'12px', overflowX:'auto', paddingBottom:'4px'}}>
               {project.screenshots.map((img, i) => (
                 <div key={i} style={{flex:'0 0 auto', width:'52vw', aspectRatio:'16/9', background:'#e8e8e8', overflow:'hidden'}}>
-                  <img src={urlFor(img).width(1200).url()} alt="" style={{width:'100%', height:'100%', objectFit:'cover'}} />
+                  <img src={urlFor(img.asset).width(1200).url()} alt="" style={{width:'100%', height:'100%', objectFit:'cover'}} />
                 </div>
               ))}
             </div>
