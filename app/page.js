@@ -2,7 +2,7 @@ import { client } from '../sanity/client'
 import Portfolio from '../components/Portfolio'
 
 export default async function Home() {
-const projects = await client.fetch(`
+  const projects = await client.fetch(`
     *[_type == "project"] | order(order asc) {
       _id,
       title,
@@ -15,7 +15,7 @@ const projects = await client.fetch(`
       screenshots,
       slug
     }
-  `)
+  `, {}, { next: { revalidate: 0 } })
 
   return <Portfolio projects={projects} />
 }
