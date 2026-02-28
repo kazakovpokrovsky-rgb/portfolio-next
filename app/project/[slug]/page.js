@@ -12,9 +12,12 @@ export default async function ProjectPage({ params }) {
       description,
       thumbnail,
       embedUrl,
-      screenshots
+      "screenshots": screenshots[]{
+        asset->
+      }
     }`,
-    { slug }
+    { slug },
+    { next: { revalidate: 0 } }
   )
 
   if (!project) return <div>Проект не найден</div>
