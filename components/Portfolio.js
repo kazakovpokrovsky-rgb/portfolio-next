@@ -214,11 +214,10 @@ const styles = `
   .screenshot-item {
     flex: 0 0 auto;
     width: 52vw;
-    aspect-ratio: 16 / 9;
     background: #e8e8e8;
     overflow: hidden;
   }
-  .screenshot-item img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .screenshot-item img { width: 100%; height: 100%; cover; display: block; }
 
   .info-body {
     padding: 40px 28px 80px;
@@ -231,14 +230,14 @@ const styles = `
   .info-bio-role { font-size: 12px; color: var(--gray); margin-bottom: 24px; }
   .info-bio-text { font-size: 14px; line-height: 1.65; color: #444; margin-bottom: 40px; }
   .contact-item { margin-bottom: 18px; }
-  .contact-type { font-size: 12px; color: var(--gray); margin-bottom: 2px; }
+  .contact-type { font-size: 12px; color: var(--gray); margin-bottom: 3px; }
   .contact-value {
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
     color: var(--black);
     display: block;
-        margin-bottom: 6px;
+        margin-bottom: 3px;
   }
   .contact-value:hover { color: var(--gray); }
 `
@@ -354,8 +353,9 @@ const thumbUrl = p.thumbnail ? urlFor(p.thumbnail).width(2400).url() : null
         </div>
         <div className="contact-item">
           <div className="contact-type">Representation</div>
-          <a href="#" className="contact-value">RU: Hype Film</a>
-          <a href="#" className="contact-value">SP: Barrio Studio </a>
+          <a href="#" className="contact-value">RU | Hype Film</a>
+          <a href="#" className="contact-value">ESP | Barrio Studios</a>
+        
         </div>
       </div>
     </div>
