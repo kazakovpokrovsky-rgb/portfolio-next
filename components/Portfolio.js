@@ -139,12 +139,11 @@ const styles = `
   }
   .project-card:hover .project-title-overlay { opacity: 1; }
 
-  .project-caption {
-    margin-top: 9px;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: var(--black);
+  @media (max-width: 768px) {
+    .project-title-overlay {
+      font-size: 11px;
+      font-weight: 400;
+    }
   }
 
   .subpage {
