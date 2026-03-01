@@ -52,7 +52,6 @@ export default async function ProjectPage({ params }) {
       {project.screenshots && project.screenshots.length > 0 && (
   <>
     <div style={{fontSize:'11px', color:'#999', marginBottom:'14px'}}>Images</div>
-    <div style={{fontSize:'11px', color:'#999', marginBottom:'14px'}}>Images</div>
 <div className="screenshots-grid">
   {project.screenshots.map((img, i) => (
     <div key={i} style={{width:'100%', background:'#e8e8e8', overflow:'hidden'}}>
