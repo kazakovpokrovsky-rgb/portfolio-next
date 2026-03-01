@@ -341,7 +341,7 @@ const thumbUrl = p.thumbnail ? urlFor(p.thumbnail).width(2400).url() : null
        <div className="info-bio-name">ГОША КАЗАКОВ-ПОКРОВСКИЙ</div>
        <div className="info-bio-role"></div>
         <div className="info-bio-text">
-          <p>Gosha Kazakov-Pokrovskiy is a director and screenwriter whose work moves between documentary and fiction, focusing on identity, landscape, and presence.</p>
+          <p>Gosha is a director and screenwriter whose work moves between documentary and fiction, focusing on identity, landscape, and presence.</p>
   <p>With a background in philosophy (aesthetics) from Moscow State University, he approaches film through atmosphere and character rather than spectacle. His visual language is restrained, narrative-driven, and grounded in authenticity.</p>
   <p>Collaborations include Puma, L'Oréal, Dyson, New Era, La Roche-Posay, and J.Kim.</p>
   <p>Featured on Nowness, Booom TV, and Director's Library.</p>
