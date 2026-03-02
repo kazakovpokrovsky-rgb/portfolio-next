@@ -288,7 +288,7 @@ export default function Portfolio({ projects }) {
       )
     })}
   </div>
-  <div style={{marginTop:'60px', fontSize:'11px', color:'#999'}}>
+  <div style={{marginTop:'60px', fontSize:'11px', color:'#999', textAlign:'center'}}>
     2020 – Now © Georgiy Kazakov-Pokrovsky. All rights reserved.
   </div>
 </div>
