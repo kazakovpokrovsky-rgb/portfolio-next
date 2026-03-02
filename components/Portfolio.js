@@ -276,18 +276,20 @@ export default function Portfolio({ projects }) {
 <div className="page-index">
   <div className="projects-grid">
     {projects.map(p => {
-const thumbUrl = p.thumbnail ? urlFor(p.thumbnail).width(2400).url() : null
+      const thumbUrl = p.thumbnail ? urlFor(p.thumbnail).width(2400).url() : null
       const gifUrl = p.thumbnailGif ? urlFor(p.thumbnailGif).format('gif').url() : null
       return (
-       <div key={p._id} className="project-card" onClick={() => window.location.href = `/project/${p.slug.current}`}>
-      <div className={`project-thumb ${thumbUrl ? 'has-image' : 'no-image'}`}>
-  {thumbUrl && <img className="thumb-static" src={thumbUrl} alt={p.title} loading="lazy" />}
-  <div className="project-title-overlay">{p.title}</div>
-</div>
-          
+        <div key={p._id} className="project-card" onClick={() => window.location.href = `/project/${p.slug.current}`}>
+          <div className={`project-thumb ${thumbUrl ? 'has-image' : 'no-image'}`}>
+            {thumbUrl && <img className="thumb-static" src={thumbUrl} alt={p.title} loading="lazy" />}
+            <div className="project-title-overlay">{p.title}</div>
+          </div>
         </div>
       )
     })}
+  </div>
+  <div style={{marginTop:'60px', fontSize:'11px', color:'#999'}}>
+    2020 – Now © Georgiy Kazakov-Pokrovsky. All rights reserved.
   </div>
 </div>
 
