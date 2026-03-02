@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
 title: 'Gosha Kazakov-Pokrovsky',
-  description: 'Director. Film and commercial director based in Moscow and Berlin.',
+  description: 'Direсtor',
   keywords: 'Gosha Kazakov-Pokrovsky, Georgy Kazakov-Pokrovsky, Georgiy Kazakov-Pokrovsktiy, director, film director, commercial director',
    verification: {
     google: 'RhFe3pmO4TyYqdCyLBvtgn_Zcz4AeEb8hRBLCK5Pg8c'
