@@ -131,7 +131,7 @@ const styles = `
     align-items: center;
     justify-content: center;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
     color: #fff;
     opacity: 0;
     transition: opacity 0.3s;
