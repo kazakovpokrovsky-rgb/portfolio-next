@@ -131,7 +131,7 @@ const styles = `
     align-items: center;
     justify-content: center;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
     color: #fff;
     opacity: 0;
     transition: opacity 0.3s;
@@ -345,7 +345,7 @@ export default function Portfolio({ projects }) {
           <p>Gosha is a director and screenwriter whose work moves between documentary and fiction, focusing on identity, landscape, and presence.</p>
   <p>With a background in philosophy (aesthetics) from Moscow State University, he approaches film through atmosphere and character rather than spectacle. His visual language is restrained, narrative-driven, and grounded in authenticity.</p>
   <p>Collaborations include Puma, L'Oréal, Dyson, New Era, La Roche-Posay, and J.Kim.</p>
-  <p>Featured on Nowness, Booom TV, and Director's Library.</p>
+  <p>Featured on Nowness and Director's Library.</p>
 
         </div>
       </div>
@@ -356,12 +356,7 @@ export default function Portfolio({ projects }) {
         </div>
         <div className="contact-item">
           <div className="contact-type">Instagram</div>
-        <a href="https://www.instagram.com/kazakovpokrovsky" target="_blank" className="contact-value">@kazakovpokrovsky</a>
-        </div>
-        <div className="contact-item">
-          <div className="contact-type">Representation</div>
-          <a href="mailto:tsvetkova@hypepro.ru" className="contact-value">RU | Hype Film</a>
-        
+        <a href="https://www.instagram.com/kazakovpokrovsky" target="_blank" className="contact-value">@kazakovpokrovsky</a>      
         </div>
       </div>
     </div>
